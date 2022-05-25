@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Buy_Rent_Process.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+Car.h
+../include/Car.h
+
+../include/Car.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+../include/Customer.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+../include/Garages.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+Service.h
+../include/Service.h
+
+../include/Service.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+../include/Service_Process.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+Service.h
+../include/Service.h
+
+../include/Showrooms.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+Car.h
+../include/Car.h
+
+C:/Users/DarkTiger N/Desktop/Carshowrooms/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+map
+-
+set
+-
+Customer.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/Customer.h
+Showrooms.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/Showrooms.h
+Garages.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/Garages.h
+
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Admin.cpp
+Service.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Service.h
+Car.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Car.h
+Buy_Rent_Process.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Buy_Rent_Process.h
+Service_Process.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Service_Process.h
+Showrooms.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Showrooms.h
+Garages.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Garages.h
+Customer.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Customer.h
+
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Customer.cpp
+Customer.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Customer.h
+Service.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Service.h
+Car.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Car.h
+Buy_Rent_Process.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Buy_Rent_Process.h
+Service_Process.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Service_Process.h
+Showrooms.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Showrooms.h
+Garages.h
+C:/Users/DarkTiger N/Desktop/Carshowrooms/src/Garages.h
+
