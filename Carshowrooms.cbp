@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Carshowrooms" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Carshowrooms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Carshowrooms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Buy_Rent_Process.h" />
+		<Unit filename="include/Car.h" />
+		<Unit filename="include/Customer.h" />
+		<Unit filename="include/Date.h" />
+		<Unit filename="include/Garages.h" />
+		<Unit filename="include/Service.h" />
+		<Unit filename="include/Service_Process.h" />
+		<Unit filename="include/Showrooms.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Admin.cpp" />
+		<Unit filename="src/Buy_Rent_Process.cpp" />
+		<Unit filename="src/Car.cpp" />
+		<Unit filename="src/Customer.cpp" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/Garages.cpp" />
+		<Unit filename="src/Service.cpp" />
+		<Unit filename="src/Service_Process.cpp" />
+		<Unit filename="src/Showrooms.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
